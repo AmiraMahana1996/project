@@ -32,7 +32,7 @@ jobs:
       - run:
           name: Install API Dependencies
           command: |
-      npm install api:install
+      npm run install api:install
       # TODO: Lint the frontend
       - run:
           name: Front-End Lint
