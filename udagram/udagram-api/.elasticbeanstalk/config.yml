@@ -1,13 +1,13 @@
 branch-defaults:
   default:
-    environment: Testapp-env
+    environment: Project3-env
 environment-defaults:
   Testapp-env:
     branch: null
     repository: null
 artifact: www/Archive.zip
 global:
-  application_name: testapp
+  application_name: Project3-env
   default_ec2_keyname: null
   default_platform: Node.js 16 running on 64bit Amazon Linux 2
   default_region: us-east-1
