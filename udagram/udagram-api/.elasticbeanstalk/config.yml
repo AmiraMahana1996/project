@@ -2,7 +2,7 @@ branch-defaults:
   default:
     environment: Project3-env
 environment-defaults:
-  Project3-env:
+  project3-env:
     branch: null
     repository: null
 deploy: 
