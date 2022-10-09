@@ -6,7 +6,7 @@ environment-defaults:
     branch: null
     repository: null
 deploy: 
-  artifact: build.zip
+  artifact: www/Archive.zip
 global:
   application_name: Project3
   default_ec2_keyname: null
