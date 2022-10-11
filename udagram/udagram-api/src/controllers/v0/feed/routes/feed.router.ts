@@ -73,10 +73,9 @@ router.post('/',
         url: fileName,
       });
 
-      const savedItem = await item.save();
+       await item.save();
 
-      savedItem.url = AWS.getGetSignedUrl(savedItem.url);
-      res.status(201).send(savedItem);
+      res.status(200).send('saved Item');
     });
 
 export const FeedRouter: Router = router;
