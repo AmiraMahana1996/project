@@ -47,7 +47,6 @@ router.get('/:id',
 
 // Get a signed url to put a new item in the bucket
 router.get('/signed-url/:fileName',
-    requireAuth,
     async (req: Request, res: Response) => {
       const {fileName} = req.params;
       const url = AWS.getPutSignedUrl(fileName);

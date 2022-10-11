@@ -47,7 +47,6 @@ export function requireAuth(req: Request, res: Response, next: NextFunction) {
 }
 
 router.get('/verification',
-    requireAuth,
     async (req: Request, res: Response) => {
       return res.status(200).send({auth: true, message: 'Authenticated.'});
     });
